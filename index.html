@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment 2 - Website Building</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.css"
+            integrity="sha512-+ouAqATs1y4kpPMCHfKHVJwf308zo+tC9dlEYK9rKe7kiP35NiP+Oi35rCFnc16zdvk9aBkDUtEO3tIPl0xN5w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="js/index.js" defer></script>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+
+        <div id="login-container">
+
+            <form>
+                <div>
+                    <label for="username">Username:</label>
+                    <input id="username" type="text">
+                    <span class="fa-solid fa-check errspan" id="checked-username"></span>
+                    <span class="fa-solid fa-xmark errspan" id="crossed-username"></span>
+                </div>
+
+                <div>
+                    <label for="password">Password:</label>
+                    <input id="password" type="password">
+                    <span class="fa-solid fa-check errspan" id="checked-password"></span>
+                    <span class="fa-solid fa-xmark errspan" id="crossed-password"></span>
+                </div>
+                <input type="submit" value="Login">
+            </form>
+            <p id="output"></p>
+        </div>
+    </body>
+</html>
